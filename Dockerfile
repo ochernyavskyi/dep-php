@@ -1,7 +1,5 @@
-FROM golang
-
-WORKDIR /go/src/app
-COPY my-app.go .
-RUN go build my-app.go
+FROM php:7.4-cli
+COPY . /var/www/
+WORKDIR /var/www/
+CMD [ "php", "-S", "0.0.0.0:80"]
 EXPOSE 80
-CMD ["./my-app"]
