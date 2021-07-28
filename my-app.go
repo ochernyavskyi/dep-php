@@ -1,8 +1,8 @@
 package main
-import (
+import
     "net/http"
     "fmt"
-    )
+
 
 type msg string
 func (m msg) ServeHTTP(resp http.ResponseWriter, req *http.Request) {
