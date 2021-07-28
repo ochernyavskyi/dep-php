@@ -1,0 +1,1 @@
+<h1>Docker image of php application</h1>
