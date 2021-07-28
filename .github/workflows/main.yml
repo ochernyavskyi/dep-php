@@ -3,8 +3,8 @@
 name: CI-CD-Pipeline-To-AWS
 env:
     AWS_S3_Bucket_Name : "my-test-bucket-odessa2"
-    EB_Application_Name: "Docker2"
-    EB_Env: "Docker-env2"
+    EB_Application_Name: "Docker3"
+    EB_Env: "Docker-env3"
     DeployPackageName: "docker_app_${{ github.sha }}.zip"
     AWS_Region_Name: "eu-central-1"
 
