@@ -56,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:721000729231:task-definition/MyTaskDefinition:15",
+  "taskDefinitionArn": "arn:aws:ecs:eu-central-1:721000729231:task-definition/MyTaskDefinition:40",
   "family": "MyTaskDefinition",
   "requiresAttributes": [
     {
