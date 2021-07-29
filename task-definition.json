@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "721000729231.dkr.ecr.eu-central-1.amazonaws.com/my-repo2",
+      "image": "721000729231.dkr.ecr.eu-central-1.amazonaws.com/my-repo",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "MyContainerName2"
+      "name": "MyContainerName"
     }
   ],
   "placementConstraints": [],
