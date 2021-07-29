@@ -59,7 +59,7 @@ jobs:
 
 
       - name: Create Zip deployment package
-        run: zip -r ${{ env.DeployPackageName}} ./ -x *.git* README.MD
+        run: zip -r ${{ env.DeployPackageName}} ./ -x *.git* README.MD dep-terraform
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
